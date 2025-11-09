@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Henrique Soares</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+    <header class="sticky-header">
+        <nav class="header-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Group 5.svg" alt="">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button id="pf_theme_toggle_btn" class="theme-toggle-btn">
+                <svg id="pf_theme_icon_sun" class="theme-icon hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-6.364-.386 1.591-1.591M3 12h2.25m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 1-2.25-2.25A2.25 2.25 0 0 1 12 7.5a2.25 2.25 0 0 1 2.25 2.25A2.25 2.25 0 0 1 12 12Z" />
+                </svg>
+                <svg id="pf_theme_icon_moon" class="theme-icon hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p>Olá, me chamo</p>
+                    <h1>Henrique Soares</h1>
+                    <p class="typing-effect">
+                        <span id="pf_typing_text"></span>
+                        <span class="typing-cursor"></span>
+                    </p>
+                    <div class="hero-buttons-container">
+                        <a href="Currículo HENRIQUE BRAGA SOARES.docx" target="_blank" class="btn-hero">Meu
+                            Currículo</a>
+                        <a href="#contato" class="btn-hero">Contato</a>
+                    </div>
+                </div>
+                <div>
+                    <img class="hero-image-placeholder" src="IMG-20250915-WA0278.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section id="sobre" class="about">
+
+            <div class="section-title">
+                <h2>Sobre Mim</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Olá, meu nome é Henrique Braga Soares. Tenho 16 anos, sou estudante do segundo ano do Ensino Médio
+                    no Colégio Cotemig. Gosto de programar e busco constantemente aprimorar meus conhecimentos em
+                    tecnologias web e desenvolvimento de software. Tenho experiência com HTML, CSS, JavaScript, C# e
+                    MySQL, e busco ativamente criar projetos para aplicar e desenvolver minhas habilidades.
+                </p>
+            </div>
+        </section>
+        <section id="projetos" class="projects">
+
+            <div class="section-title">
+                <h2>Projetos</h2>
+            </div>
+            <div class="new-project-container">
+                <div class="project-card">
+                    <h3>Sneaker Lab</h3>
+                    <p class="project-description">
+                        Site de venda de tênis e roupas desenvolvido
+                        com Html, Css e JavaScript.
+                    </p>
+                    <a href="https://henriquebsoares.github.io/Sneaker-Lab/" target="_blank" class="btn-github-project">Ver no GitHub</a>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Portfólio Pessoal</h3>
+                    <p class="project-description">
+                        Portfólio pessoal desenvolvido com Html, Css
+                        e JavaScript. (Este site!)
+                    </p>
+                    <a href="#" target="_blank" class="btn-github-project">Ver no GitHub</a>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            </div>
+
+        </section>
+        <section id="skills" class="skills">
+
+            <div class="section-title">
+                <h2>Habilidades</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-item" data-skill-name="CSS3"
+                    data-description="CSS3 é uma linguagem usada para estilizar páginas web, controlando cores, fontes, layout e efeitos visuais, deixando os sites bonitos e responsivos.">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-item" data-skill-name="HTML5"
+                    data-description="HTML5 é a linguagem usada para estruturar páginas web, trazendo novas tags, vídeos, áudios e formulários melhorados, além de melhor suporte para aplicações modernas e responsivas.">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item" data-skill-name="JavaScript"
+                    data-description="JavaScript é uma linguagem de programação que torna as páginas web interativas, permitindo animações, validações e ações dinâmicas no navegador.">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="skill-item" data-skill-name="MySQL"
+                    data-description="MySQL é um sistema de banco de dados que armazena, organiza e gerencia informações, permitindo criar, consultar e atualizar dados em sites e aplicativos.">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-item" data-skill-name="C#"
+                    data-description="C# é uma linguagem de programação criada pela Microsoft, usada para desenvolver aplicativos, jogos e sistemas, especialmente na plataforma .NET.">
+                    <i class="devicon-csharp-plain colored"></i>
+                    <p>C#</p>
+                </div>
+                <div class="skill-item" data-skill-name="Figma"
+                    data-description="Figma é uma ferramenta online de design usada para criar e prototipar interfaces de sites e aplicativos, permitindo trabalho colaborativo em tempo real.">
+                    <i class="devicon-figma-plain colored"></i>
+                    <p>FIgma</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="contato" class="contact">
+
+            <div class="section-title">
+                <h2>Contato</h2>
+            </div>
+            <div class="contact-info-grid">
+                <a href="mailto:henriquesoares0603@gmail.com" class="contact-info-card">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <h3>Email</h3>
+                    <p>henriquesoares0603@gmail.com</p>
+                </a>
+                <a href="tel:+5531994573312" class="contact-info-card">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                    <h3>Telefone</h3>
+                    <p>(31) 99457-3312</p>
+                </a>
+                <a href="https://www.linkedin.com/in/henrique-soaresss" target="_blank" class="contact-info-card">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/henrique-soaresss</p>
+                </a>
+                <a href="https://github.com/HenriquebSoares" target="_blank" class="contact-info-card">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    <h3>GitHub</h3>
+                    <p>https://github.com/HenriquebSoares</p>
+                </a>
+            </div>
+            <div class="form-container">
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <label for="pf_form_name">Nome</label>
+                        <input type="text" id="pf_form_name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pf_form_email">Email</label>
+                        <input type="email" id="pf_form_email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Telefone</label>
+                        <input id="telefone" oninput="mascara_telefone()" type="tel" maxlength="14">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pf_form_message">Mensagem</label>
+                        <textarea id="pf_form_message" name="message" rows="7" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy;2025 Henrique Braga Soares. Todos os direitos reservados.</p>
+
+        </div>
+    </footer>
+
+    <script src="Java.js" defer></script>
+</body>
+
+</html>
