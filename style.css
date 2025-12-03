@@ -380,67 +380,6 @@ body.dark-mode .theme-toggle-btn {
     background-color: var(--section-alt-bg);
 }
 
-.form-container {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: var(--card-background-color);
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px var(--shadow-color);
-}
-
-.form-group {
-    margin-bottom: 25px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 15px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    font-size: 1rem;
-    font-family: Arial, sans-serif;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 5px rgba(155, 89, 182, 0.5);
-}
-
-.btn-submit {
-    background-color: var(--primary-color);
-    color: var(--text-on-primary);
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 100%;
-}
-
-.btn-submit:hover {
-    background-color: #8E44AD;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px var(--shadow-color);
-}
-
 footer {
     background-color: var(--text-color);
     color: var(--background-color);
@@ -650,4 +589,5 @@ footer {
     color: var(--text-color);
     opacity: 0.7;
     word-break: break-word;
+
 }
